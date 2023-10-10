@@ -1,54 +1,12 @@
+#  Weather App
+A weather app that allows you to check the weather in any location you'd like. You can also check the weather for your current location by tapping the location symbol next to the search bar. The app is dark-mode enabled as well.
+![Simulator Screenshot - iPhone 13 Pro - 2023-09-28 at 17 28 49](https://github.com/sta5129/Weather-App/assets/83985934/7b31819c-927d-4862-ac91-d32a72f80956)
 
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+![Simulator Screenshot - iPhone 13 Pro - 2023-09-28 at 17 28 53](https://github.com/sta5129/Weather-App/assets/83985934/27838528-3fc6-4755-b8a5-f093d107e222)
 
-#  Clima
+![Simulator Screenshot - iPhone 13 Pro - 2023-09-28 at 17 28 56](https://github.com/sta5129/Weather-App/assets/83985934/ba6e2137-0175-49d2-a50f-0bdb81bc3b1e)
 
-## Our Goal
+![Simulator Screenshot - iPhone 13 Pro - 2023-09-28 at 17 32 23](https://github.com/sta5129/Weather-App/assets/83985934/a688d389-34b3-4f62-b803-b49d755c8e9d)
 
-It’s time to take our app development skills to the next level. We’re going to introduce you to the wonderful world of Application Programming Interfaces (APIs) to grab live data from the internet. If you’re dreaming of making that Twitter-powered stock trading app then you’re about add some serious tools to your toolbelt!
+![Simulator Screenshot - iPhone 13 Pro - 2023-09-28 at 17 32 27](https://github.com/sta5129/Weather-App/assets/83985934/34b902ec-6aab-40b0-a336-a4bf32ff1d91)
 
-
-## What you will create
-
-By the end of the module, you will have made a beautiful, dark-mode enabled weather app. You'll be able to check the weather for the current location based on the GPS data from the iPhone as well as by searching for a city manually. 
-
-## What you will learn
-
-* How to create a dark-mode enabled app.
-* How to use vector images as image assets.
-* Learn to use the UITextField to get user input. 
-* Learn about the delegate pattern.
-* Swift protocols and extensions. 
-* Swift guard keyword. 
-* Swift computed properties.
-* Swift closures and completion handlers.
-* Learn to use URLSession to network and make HTTP requests.
-* Parse JSON with the native Encodable and Decodable protocols. 
-* Learn to use Grand Central Dispatch to fetch the main thread.
-* Learn to use Core Location to get the current location from the phone GPS. 
-
-### Condition Codes
-```
-switch conditionID {
-        case 200...232:
-            return "cloud.bolt"
-        case 300...321:
-            return "cloud.drizzle"
-        case 500...531:
-            return "cloud.rain"
-        case 600...622:
-            return "cloud.snow"
-        case 701...781:
-            return "cloud.fog"
-        case 800:
-            return "sun.max"
-        case 801...804:
-            return "cloud.bolt"
-        default:
-            return "cloud"
-        }
-```
-
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
